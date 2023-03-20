@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ceopblur"
+    tools:context=".Login"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+<!--   Products for selling will be added here.-->
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+       android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/ET_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter name of the product" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+       android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/ET_detail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter specification of the product" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+       android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/ET_quantity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter quantity of the product" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+       android:layout_height="wrap_content">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/ET_price"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter price of the product for one product only" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <Spinner
+       android:id="@+id/spin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:entries="@array/category"
+       android:minHeight="48dp" />
+
+   <Button
+       android:id="@+id/btn_add"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:minHeight="48dp"
+       android:padding="10dp"
+       android:text="Add Product" />
+
+   <Button
+       android:id="@+id/btn_manage_product"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:minHeight="48dp"
+       android:padding="10dp"
+       android:text="Manage Product" />
+
+
+</LinearLayout>

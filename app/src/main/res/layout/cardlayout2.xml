@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ceopblur"
+    android:padding="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:layout_margin="10dp">
+
+<!--    Farmer Card view-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/itemtitle"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="2dp"
+            android:text="Title"
+            android:textSize="25sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/itemDetail"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:padding="2dp"
+            android:text="Product Detail"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemtitle" />
+
+        <TextView
+            android:id="@+id/itemprice"
+            android:layout_width="141dp"
+            android:layout_height="26dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:padding="2dp"
+            android:text="Price"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/itemDetail" />
+
+        <Button
+            android:id="@+id/btn_fbuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="28dp"
+            android:padding="2dp"
+            android:text="@string/buy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemDetail" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="27dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="40dp"
+            android:text="Rs."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemDetail"
+            app:layout_constraintVertical_bias="0.275" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+

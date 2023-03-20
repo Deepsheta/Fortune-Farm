@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "630709791800",
+    "firebase_url": "https://fortune-farm-f6947-default-rtdb.firebaseio.com",
+    "project_id": "fortune-farm-f6947",
+    "storage_bucket": "fortune-farm-f6947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630709791800:android:3dcfa687e4ebe72c670acd",
+        "android_client_info": {
+          "package_name": "com.example.farmbee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630709791800-itaq8h7lrcaobst90efjruf5nqe9g6cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmUA2n4yUjeY_82wFPzakcDlBEQVugo9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630709791800-itaq8h7lrcaobst90efjruf5nqe9g6cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
