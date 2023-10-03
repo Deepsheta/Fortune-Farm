@@ -8,5 +8,7 @@ Project Description: This app primarily focuses on farmers selling goods directl
 
 
 Team Size: 3 people 	
+
 Front End: Android Software Development Kit (Kotlin)
+
 Back End: Structured Query Language, Firebase
