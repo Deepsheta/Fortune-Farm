@@ -11,4 +11,5 @@ Team Size: 3 people
 
 Front End: Android Software Development Kit (Kotlin)
 
-Back End: Structured Query Language, Firebase
+Back End: Structured Query Language, Firebase[Fortune_farm.pdf](https://github.com/Deepsheta/Fortune-Farm/files/14488349/Fortune_farm.pdf)
+
